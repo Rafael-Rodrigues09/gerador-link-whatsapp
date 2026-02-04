@@ -17,7 +17,7 @@ body {
   border-color: rgb(110, 110, 110);
   border-radius: 10px;
   padding: 20px;
-  gap: 30px; 
+  gap: 30px;
   width: 90%;
   max-width: 400px;
 }
@@ -29,26 +29,48 @@ body {
   width: 100%;
   box-sizing: border-box;
 }
-.input:hover{
+
+.input:hover {
   background-color: #bebebe;
 }
-#msg{
+
+#msg {
   resize: none;
 }
-.botao{
- height: 50px;
+
+.botao {
+  height: 50px;
   border-radius: 10px;
   background-color: #a8a8a8;
   width: 100%;
   font-weight: bold
 }
-.botao:hover{
+
+.botao:hover {
   background-color: rgb(40, 255, 40);
   border: none;
   transition: 0.1s;
   transform: scale(1.02);
 }
-.input:focus{
+
+.input:focus {
   outline: none;
 }
 
+#resultado {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  display: none
+}
+
+#linkfinal {
+  text-decoration: none;
+  font-size: 14px;
+  word-break: break-all; 
+  color: #25D366; 
+  font: bold;
+}
