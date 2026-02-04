@@ -10,7 +10,7 @@ let url = `https://wa.me/${numlimpo}?text=${msgformatada}`
 let resultado = document.getElementById('resultado')
 let linkfinal = document.getElementById('linkfinal')
 let botaocopiar = document.getElementById('copbotao')
-  if(numlimpo.length < 10){
+  if(numlimpo.length < 10 || numlimpo.length > 13){
     alert('Por favor, digite um número válido com DDD (ex: 88988186734)')
     return
   }
@@ -28,4 +28,5 @@ function copiar(){
   setTimeout(function(){
     botaocopiar.innerText = 'Copiar'
     }, 2000)
+
 }
